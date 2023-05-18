@@ -1,16 +1,19 @@
 <template>
   <view>
-    <SearchExpressage></SearchExpressage>
+    <!-- <SearchExpressage></SearchExpressage> -->
+    <home-page></home-page>
   </view>
 </template>
 
 <script>
-import SearchExpressage from './components/SearchExpressage.vue'
+import HomePage from './components/HomePage.vue'
+// import SearchExpressage from './components/SearchExpressage.vue'
 
 export default {
   name: 'App',
   components: {
-    SearchExpressage,
+    // SearchExpressage,
+    HomePage
   }
 }
 </script>
