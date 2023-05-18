@@ -10,7 +10,7 @@ import SearchExpressage from './components/SearchExpressage.vue'
 export default {
   name: 'App',
   components: {
-    SearchExpressage
+    SearchExpressage,
   }
 }
 </script>
